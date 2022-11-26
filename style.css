@@ -97,6 +97,22 @@ header css
     padding: 10px 20px;
 }
 
+@media (max-width: 991px) {
+    .nav-item {
+        text-align: left;
+        width: 50%;
+     padding: 0;
+     margin : 0;
+    }
+    .header-area .nav-item:last-child {
+        
+        
+        margin-left: 20px;
+        text-align: left;
+        width: 30%;
+    }
+}
+
 /*
 Hero-area CSS
 */
@@ -127,19 +143,31 @@ Hero-area CSS
     margin-top: 15px;
 }
 
-
-
- @media (max-width: 991px) {
-    .nav-item {
-        width: 100%;
-        text-align: center;
-       padding-left: 20px;
+@media (max-width: 991px) {
+    .hero-text h3 {
+        font-size: 15px;
+        text-align: left;
+        margin-left: 20px;
     }
-    .header-area .nav-item:last-child .nav-link{
-        padding: 16px 24px;
-        
+    .hero-text h2 {
+        text-align: left;
+      font-size: 40px;
+      padding: 15px;
+    }
+    .hero-text p {
+        margin-left: 20px;
+    }
+    .hero-text  a {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    width: 30%
     }
 }
+
+
+
+
 /*
 Footer CSS
 */
@@ -218,4 +246,13 @@ Footer CSS
 
 .design img {
     height: 100px;
+}
+
+@media (max-width: 991px) {
+    .footer-area img {
+        align-items: center;
+    }
+    .footer-top p {
+        text-align: center;
+    }
 }
