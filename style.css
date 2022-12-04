@@ -201,7 +201,7 @@ Hero-area CSS
     }
     .hero-text h2 {
         text-align: left;
-      font-size: 40px;
+      font-size: 35px;
       padding: 15px;
     }
     .hero-text p {
@@ -276,17 +276,21 @@ margin-left: 15px;
 
 @media (max-width: 991px) {
     .servise-area h4 {
-        margin-left: 115px;
+        margin-left: 82px;
         font-size: 15px;
     }
     .servise-area h3 {
-        font-size: 25px;
-    margin-left: 100px;
+        font-size: 30px;
+    margin-left: 82px;
     padding-bottom: 30px
     }
 
-    .servise-area .service-text h3 {
-
+    .service-text h3 {
+font-size: 25px;
+margin-left: 0px;
+    }
+    .service-text p {
+        font-size: 15px;
     }
 }
 
@@ -299,9 +303,18 @@ About area css
 }
 
 @media (max-width: 991px) {
-    .about-area img {
-        max-width: 100%;
+    .section-heading h4 {
+        font-size: 15px;
+        margin-top: 30px;
     }
+    .section-heading h3 {
+        font-size: 25px;
+    }
+    .section-heading p {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    
 }
   
 /*
@@ -394,6 +407,28 @@ top: 100px;
 .special {
     margin-top: 100px;
 }
+@media (max-width: 991px) {
+    .success-area h5 {
+        font-size: 200px;
+        text-align: center
+    }
+    .success-area h3 {
+        text-align: center;
+    }
+    .success-area .theme-button {
+        margin-left: 115px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 991px) {
+    .single-work-text {
+
+    }
+    .single-work-text {
+        margin-bottom: 50px;
+    }
+}
+
 
 /*
 testimonial-area CSS
@@ -485,6 +520,8 @@ border-radius: 70px 0px;
   margin-left: 15px;
   }
 
+  
+
   /*
 Blog area CSS
   */
@@ -499,6 +536,12 @@ Blog area CSS
   }
   .blog-text {
     margin-top: 40px;
+  }
+
+  @media (max-width: 991px) {
+    .blog-area .theme-button {
+       margin-bottom: 30px;
+    }
   }
 /*
 signup-area CSS
@@ -542,6 +585,12 @@ signup-area CSS
 }
 .signup-area button:hover {
     background-color: #B0855B;
+}
+
+@media (max-width: 991px) {
+    .signup-area h3 {
+        font-size: 30px;
+    }
 }
 
 /*
